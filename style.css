@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    scroll-behavior: smooth;
+}
+
+#img1 {
+    width: 200px;
+    height: 201px;
+    border-radius: 50px;
+ 
+}
+
+#img2 {
+    width: 200px;
+    height: 201px;
+    border-radius: 50px;
+
+}
+
+
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.center {
+    margin: auto;
+    width: 32%;
+}
+.zoom {
+  padding: 50px;
+ 
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
